@@ -19,7 +19,7 @@ import notificationRouter from "./routes/notification.routes.js";
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://linkedin-clone-frontend1.onrender.com"
+  "https://pronet-y2bs.onrender.com"
 ];
 
 let app=express();
