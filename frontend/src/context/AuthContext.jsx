@@ -3,7 +3,7 @@ export const authDataContext=React.createContext();
 
 
 const AuthContext = ({children}) => {
-  const serverUrl="https://pronet-y2bs.onrender.com"
+  const serverUrl="https://pronet2.onrender.com"
   let value={
            serverUrl
   };

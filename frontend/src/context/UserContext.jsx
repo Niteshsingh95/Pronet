@@ -3,7 +3,7 @@ import {authDataContext} from './AuthContext.jsx'
 import axios from 'axios';
 import { io } from "socket.io-client";
 import { useNavigate } from 'react-router-dom';
- export let socket=io("https://pronet-y2bs.onrender.com", { withCredentials: true })
+ export let socket=io("https://pronet2.onrender.com", { withCredentials: true })
 export const userDataContext=createContext();
 
 function UserContext({children})  {
